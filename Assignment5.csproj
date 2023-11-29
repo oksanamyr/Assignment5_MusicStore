@@ -263,6 +263,7 @@
     <None Include="obj\Debug\net7.0\Assignment5.AssemblyInfoInputs.cache" />
     <None Include="obj\Debug\net7.0\Assignment5.assets.cache" />
     <None Include="obj\Debug\net7.0\Assignment5.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\Assignment5.csproj.BuildWithSkipAnalyzers" />
     <None Include="obj\Debug\net7.0\Assignment5.csproj.CopyComplete" />
     <None Include="obj\Debug\net7.0\Assignment5.csproj.CoreCompileInputs.cache" />
     <None Include="obj\Debug\net7.0\Assignment5.dll" />
@@ -288,6 +289,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".github\workflows\" />
   </ItemGroup>
 
 </Project>
